@@ -29,13 +29,14 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+
+    <div className="app" >
       {/* ========== NAVBAR ========== */}
       <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
         <div className="navbar-container">
           {/* Logo */}
           <div className="navbar-logo">
-            <a href="/">
+            <a href="#">
               <svg
                 className="logo-icon"
                 width="40"
@@ -47,24 +48,32 @@ const App = () => {
                 <path d="M12 28L20 12L28 28H12Z" fill="white" fillOpacity="0.9" />
                 <circle cx="20" cy="22" r="3" fill="#6366f1" />
               </svg>
-              <span className="logo-text">Rafa</span>
+              <span className="logo-text">Rafay</span>
             </a>
           </div>
 
           {/* Navigation Links */}
           <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <ul className="nav-menu">
+
               <li className="nav-item">
-                <a href="/" className="nav-link active">Home</a>
+                <a href="#" className="nav-link active">Home</a>
+              </li>
+
+              <li className="nav-item">
+                <a href="#aboutmemain" className="nav-link">About</a>
               </li>
               <li className="nav-item">
-                <a href="/about" className="nav-link">About</a>
+                <a href="#experiences" className="nav-link">My Journey</a>
               </li>
               <li className="nav-item">
-                <a href="/work" className="nav-link">My Work</a>
+                <a href="#skills" className="nav-link">Work </a>
               </li>
               <li className="nav-item">
-                <a href="/contact" className="nav-link">Contact</a>
+                <a href="#projects" className="nav-link">Projects</a>
+              </li>
+              <li className="nav-item">
+                <a href="#contact" className="nav-link">Contact</a>
               </li>
             </ul>
 
@@ -95,6 +104,7 @@ const App = () => {
           </button>
         </div>
       </nav>
+
 
       {/* ========== HERO SECTION ========== */}
       <section className="hero">
@@ -127,13 +137,13 @@ const App = () => {
 
           <div id="profilemain">
             <div id="profiles">
-              <a href="https://github.com/abdul-rafaycodeder">
+              <a href="https://github.com/abdul-rafaycodeder" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="github" />
               </a>
             </div>
 
             <div id="profiles2">
-              <a href="https://www.linkedin.com/in/abdul-rafay-2bbb063a8/">
+              <a href="https://www.linkedin.com/in/abdul-rafay-2bbb063a8/" target="_blank" rel="noopener noreferrer">
                 <img src={likedin} alt="LinkedIn" />
               </a>
             </div>
@@ -695,12 +705,12 @@ const App = () => {
                   className="project-image"
                 />
                 <a href="https://abdulrehman-web.netlify.app/" target="_blank" rel="noopener noreferrer" >
-                <div className="project-overlay">
-                  <div className="overlay-content">
-                    <span className="overlay-icon">👁️</span>
-                    <span>View Project</span>
+                  <div className="project-overlay">
+                    <div className="overlay-content">
+                      <span className="overlay-icon">👁️</span>
+                      <span>View Project</span>
+                    </div>
                   </div>
-                </div>
                 </a>
                 <div className="project-category">Productivity</div>
               </div>
@@ -735,6 +745,17 @@ const App = () => {
           </div>
         </div>
       </section>
+      {/* ========== Contact SECTION ========== */}
+      <div id="contactSectionMain">
+        <div id="contactSectionMainText">
+          <h1>Get In Touch</h1>
+          <p>Have a project in mind? Let's create something amazing together</p>
+        </div>
+        <div id="contactSectionMainLeft">
+
+        </div>
+        <div id="contactSectionMainRight"></div>
+      </div>
     </div>
   );
 };

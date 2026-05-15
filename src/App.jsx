@@ -9,6 +9,7 @@ import project3 from './images/project3.png';
 import project4 from './images/project4.png';
 import project5 from './images/project5.png';
 import project6 from './images/project6.png';
+import githubImage2 from './images/githubImage2.png';
 
 
 const App = () => {
@@ -754,12 +755,12 @@ const App = () => {
         <div id="contactSectionMain2">
           <div id="contactSectionMainLeft">
             <div id="contactSectionMainLeft1">
-              <img src={github} alt="GitHub" />
-              <h1>hi my name is rafay</h1>
+              <img src={githubImage2} alt="GitHub" />
+              <h1><b>GitHub:  </b>Abdul-rafaycodeder</h1>
             </div>
             <div id="contactSectionMainLeft2">
               <img src={likedin} alt="LinkedIn" />
-              <h1>hi my name is rafay</h1>
+              <h1><b>LinkedIn</b></h1>
             </div>
           </div>
           <div id="contactSectionMainRight">

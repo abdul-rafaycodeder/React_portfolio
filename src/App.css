@@ -1380,10 +1380,13 @@ body {
 }
 
 #contactSectionMainLeft #contactSectionMainLeft1 img{
-  width: 100px;
+  width: 50px;
   color: white;
 }
-
+#contactSectionMainLeft1 h1{
+  font-size: large;
+  gap: 10px;
+}
 #contactSectionMainLeft1{
   display: flex;
   align-items: center;
@@ -1397,6 +1400,9 @@ body {
   border-radius: 20px;
   display: flex;
   align-items: center;
-  width: 100px;
+  width: 50px;
 }
 
+#contactSectionMainLeft{
+  line-height: 70px;
+}

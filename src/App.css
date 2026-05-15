@@ -1351,7 +1351,15 @@ body {
 
 /* conteact section */
 
+#contactSectionMain{
+  background-color: white;
+}
 
+#contactSectionMain2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 #contactSectionMainText {
   text-align: center;
@@ -1370,3 +1378,25 @@ body {
 #contactSectionMainText p {
   color: gray;
 }
+
+#contactSectionMainLeft #contactSectionMainLeft1 img{
+  width: 100px;
+  color: white;
+}
+
+#contactSectionMainLeft1{
+  display: flex;
+  align-items: center;
+}
+#contactSectionMainLeft2{
+  display: flex;
+  align-items: center;
+}
+
+#contactSectionMainLeft2 img{
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+

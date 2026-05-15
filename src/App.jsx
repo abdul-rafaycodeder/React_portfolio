@@ -751,10 +751,25 @@ const App = () => {
           <h1>Get In Touch</h1>
           <p>Have a project in mind? Let's create something amazing together</p>
         </div>
-        <div id="contactSectionMainLeft">
-
+        <div id="contactSectionMain2">
+          <div id="contactSectionMainLeft">
+            <div id="contactSectionMainLeft1">
+              <img src={github} alt="GitHub" />
+              <h1>hi my name is rafay</h1>
+            </div>
+            <div id="contactSectionMainLeft2">
+              <img src={likedin} alt="LinkedIn" />
+              <h1>hi my name is rafay</h1>
+            </div>
+          </div>
+          <div id="contactSectionMainRight">
+            <input type="text" placeholder="Your Name" />
+            <br />
+            <input type="text" placeholder="Your Name" />
+            <br />
+            <input type="text" placeholder="Your Name" />
+          </div>
         </div>
-        <div id="contactSectionMainRight"></div>
       </div>
     </div>
   );

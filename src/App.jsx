@@ -760,7 +760,11 @@ const App = () => {
             </div>
             <div id="contactSectionMainLeft2">
               <img src={likedin} alt="LinkedIn" />
-              <h1><b>LinkedIn</b></h1>
+              <h1><b>LinkedIn:  </b>Abdul rafay</h1>
+            </div>
+            <div id="contactSectionMainLeft3">
+              <h1 id='icon'>📌</h1>
+              <h1><b>Location:   </b>Pakistan, Karachi, Saima Luxury Homes - Society</h1>
             </div>
           </div>
           <div id="contactSectionMainRight">

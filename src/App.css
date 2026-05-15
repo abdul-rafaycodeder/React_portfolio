@@ -1353,12 +1353,14 @@ body {
 
 #contactSectionMain{
   background-color: white;
+  
 }
 
 #contactSectionMain2{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 60px;
 }
 
 #contactSectionMainText {
@@ -1383,9 +1385,17 @@ body {
   width: 50px;
   color: white;
 }
+
+#contactSectionMainLeft2 h1{
+  font-size: large;
+  gap: 10px;
+  margin-left: 10px;
+}
 #contactSectionMainLeft1 h1{
   font-size: large;
   gap: 10px;
+  margin-left: 10px;
+
 }
 #contactSectionMainLeft1{
   display: flex;
@@ -1396,6 +1406,23 @@ body {
   align-items: center;
 }
 
+#contactSectionMainLeft3 {
+  display: flex;
+  align-items: center;
+  /* margin-right: 50px; */
+}
+
+#contactSectionMainLeft3{
+  
+}
+
+#contactSectionMainLeft3 h1{
+  font-size: large;
+  gap: 10px;
+}
+#contactSectionMainLeft3 h1:nth-child(1){
+  font-size: 50px;
+}
 #contactSectionMainLeft2 img{
   border-radius: 20px;
   display: flex;

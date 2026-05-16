@@ -1366,13 +1366,20 @@ body {
   font-size: 50px;
   color: white;
 }
-
+#contactSectionMainLeft3{
+  margin-left: 11px;
+  gap: 15px;
+}
 #contactSectionMainLeft3 h1{
   color: white;
 }
 
 #contactSectionMainLeft2 #locationIcon{
   font-size: 40px;
+}
+
+#contactSectionMainLeft1{
+  gap: 4px;
 }
 
 #contactSectionMainLeft1 h1{

@@ -1351,42 +1351,44 @@ body {
 
 /* conteact section */
 
-#contactSectionMain{
+#contactSectionMain {
   background-color: #141424;
 }
 
-#contactSectionMain2{
+#contactSectionMain2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
 }
 
-#contactSectionMainLeft1 #emailIcon{
+#contactSectionMainLeft1 #emailIcon {
   font-size: 50px;
   color: white;
 }
-#contactSectionMainLeft3{
+
+#contactSectionMainLeft3 {
   margin-left: 11px;
   gap: 15px;
 }
-#contactSectionMainLeft3 h1{
+
+#contactSectionMainLeft3 h1 {
   color: white;
 }
 
-#contactSectionMainLeft2 #locationIcon{
+#contactSectionMainLeft2 #locationIcon {
   font-size: 40px;
 }
 
-#contactSectionMainLeft1{
+#contactSectionMainLeft1 {
   gap: 4px;
 }
 
-#contactSectionMainLeft1 h1{
+#contactSectionMainLeft1 h1 {
   color: white;
 }
 
-#contactSectionMainLeft2{
+#contactSectionMainLeft2 {
   color: white;
 }
 
@@ -1408,27 +1410,30 @@ body {
   color: gray;
 }
 
-#contactSectionMainLeft #contactSectionMainLeft1 img{
+#contactSectionMainLeft #contactSectionMainLeft1 img {
   width: 50px;
   color: white;
 }
 
-#contactSectionMainLeft2 h1{
+#contactSectionMainLeft2 h1 {
   font-size: large;
   gap: 10px;
   margin-left: 10px;
 }
-#contactSectionMainLeft1 h1{
+
+#contactSectionMainLeft1 h1 {
   font-size: large;
   gap: 10px;
   margin-left: 10px;
 
 }
-#contactSectionMainLeft1{
+
+#contactSectionMainLeft1 {
   display: flex;
   align-items: center;
 }
-#contactSectionMainLeft2{
+
+#contactSectionMainLeft2 {
   display: flex;
   align-items: center;
 }
@@ -1438,35 +1443,53 @@ body {
   align-items: center;
 }
 
-#contactSectionMainLeft3{
-  
-}
+ 
 
-#contactSectionMainLeft3 h1{
+#contactSectionMainLeft3 h1 {
   font-size: large;
   gap: 10px;
 }
-#contactSectionMainLeft3 img{
+
+#contactSectionMainLeft3 img {
   width: 50px;
 }
-#contactSectionMainLeft2 img{
+
+#contactSectionMainLeft2 img {
   border-radius: 20px;
   display: flex;
   align-items: center;
   width: 50px;
 }
 
-#contactSectionMainLeft{
+#contactSectionMainLeft {
   line-height: 70px;
 }
 
-#contactSectionMainRight input{
-  padding: 10px 20px;
+#contactSectionMainRight input {
+  width: 25vw;
+  padding: 15px 20px;
   border-radius: 20px;
   margin-bottom: 20px;
-  border: none;
+  border: 2px solid #3D86E5;
+}
+ 
+/* Footer */
+
+footer {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+  padding: 2rem;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
 }
 
-#contactSectionMainRight input:focus{
-  border: none;
+footer a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #8b5cf6;
 }

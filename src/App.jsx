@@ -10,7 +10,8 @@ import project4 from './images/project4.png';
 import project5 from './images/project5.png';
 import project6 from './images/project6.png';
 import githubImage2 from './images/githubImage2.png';
-
+import locationImage from './images/locationImage.png';
+import linkedinImage2 from './images/linkedin2.png';
 
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -755,16 +756,16 @@ const App = () => {
         <div id="contactSectionMain2">
           <div id="contactSectionMainLeft">
             <div id="contactSectionMainLeft1">
-              <img src={githubImage2} alt="GitHub" />
-              <h1><b>GitHub:  </b>Abdul-rafaycodeder</h1>
+              <h1 id='emailIcon'>✉</h1>
+              <h1><b>Email:  </b>abdulrafaycodeder@gmail.com</h1>
             </div>
             <div id="contactSectionMainLeft2">
-              <img src={likedin} alt="LinkedIn" />
-              <h1><b>LinkedIn:  </b>Abdul rafay</h1>
+              <h1 id='locationIcon'>📌</h1>
+              <h1><b>Location:  </b>Pakistan, Karachi, Saima Luxury Homes - Society</h1>
             </div>
             <div id="contactSectionMainLeft3">
-              <h1 id='icon'>📌</h1>
-              <h1><b>Location:   </b>Pakistan, Karachi, Saima Luxury Homes - Society</h1>
+              <img src={linkedinImage2} alt="LinkedIn" />
+              <h1><b>LinkedIn:  </b>Abdul rafay</h1>
             </div>
           </div>
           <div id="contactSectionMainRight">

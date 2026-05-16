@@ -1352,8 +1352,7 @@ body {
 /* conteact section */
 
 #contactSectionMain{
-  background-color: white;
-  
+  background-color: #141424;
 }
 
 #contactSectionMain2{
@@ -1361,6 +1360,27 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
+}
+
+#contactSectionMainLeft1 #emailIcon{
+  font-size: 50px;
+  color: white;
+}
+
+#contactSectionMainLeft3 h1{
+  color: white;
+}
+
+#contactSectionMainLeft2 #locationIcon{
+  font-size: 40px;
+}
+
+#contactSectionMainLeft1 h1{
+  color: white;
+}
+
+#contactSectionMainLeft2{
+  color: white;
 }
 
 #contactSectionMainText {
@@ -1409,7 +1429,6 @@ body {
 #contactSectionMainLeft3 {
   display: flex;
   align-items: center;
-  /* margin-right: 50px; */
 }
 
 #contactSectionMainLeft3{
@@ -1420,8 +1439,8 @@ body {
   font-size: large;
   gap: 10px;
 }
-#contactSectionMainLeft3 h1:nth-child(1){
-  font-size: 50px;
+#contactSectionMainLeft3 img{
+  width: 50px;
 }
 #contactSectionMainLeft2 img{
   border-radius: 20px;

@@ -1352,7 +1352,8 @@ body {
 /* conteact section */
 
 #contactSectionMain {
-  background-color: #141424;
+    background: linear-gradient(135deg, #16213e 0%, #141424 50%,   #1a1a2e  100%);
+
 }
 
 #contactSectionMain2 {
@@ -1472,6 +1473,28 @@ body {
   margin-bottom: 20px;
   border: 2px solid #3D86E5;
 }
+
+#contactSectionMainRight div{
+  display: flex;
+  justify-content: center;
+}
+
+#contactSectionMainRight div button{
+   width: 25vw;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#contactSectionMainRight div button:hover {
+  transform: translateY(-3px);
+ }
  
 /* Footer */
 

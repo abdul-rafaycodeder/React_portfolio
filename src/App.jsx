@@ -75,7 +75,7 @@ const App = () => {
                 <a href="#projects" className="nav-link">Projects</a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link">Contact</a>
+                <a href="#contactSectionMain" className="nav-link">Contact</a>
               </li>
             </ul>
 
@@ -769,11 +769,16 @@ const App = () => {
             </div>
           </div>
           <div id="contactSectionMainRight">
-            <input type="text" placeholder="Your Name" />
-            <br />
-            <input type="email" placeholder="Your Email" />
-            <br />
-            <input type="text" placeholder="Your Message" />
+            <form action="">
+              <input type="text" placeholder="Your Name" />
+              <br />
+              <input type="email" placeholder="Your Email" />
+              <br />
+              <input type="text" placeholder="Your Message" />
+              <div>
+                <a href="#contactSectionMain"><button>Send Message</button></a>
+              </div>
+            </form>
           </div>
         </div>
       </div>

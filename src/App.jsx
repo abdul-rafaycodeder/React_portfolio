@@ -771,9 +771,9 @@ const App = () => {
           <div id="contactSectionMainRight">
             <input type="text" placeholder="Your Name" />
             <br />
-            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
             <br />
-            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Message" />
           </div>
         </div>
       </div>
